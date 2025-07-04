@@ -41,8 +41,8 @@ TOP/
 ## ⚡ Quickstart
 1. Clone the repo:  
    ```
-   git clone https://github.com/tyishu/ToP.git
-   cd ToP
+   git clone https://github.com/tyishu/TOP.git
+   cd TOP
    ```
    
 2. Spin up and run the demo cluster and services:
