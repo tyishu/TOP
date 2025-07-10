@@ -17,12 +17,28 @@ TOP/
 │   └── technical_walkthrough.md
 ├── src/
 │   ├── ocaml_detector/
+│   │   ├── dune-project
+│   │   ├── dune
+│   │   ├── detector.ml
+│   │   ├── Dockerfile
+│   │   └── k8s/
+│   │       └── ocaml_detector_deployment.yaml
 │   ├── python_orchestrator/
+│   │   └── load_probe.py
 │   └── go_exporter/
+│       ├── go.mod
+│       ├── go.sum
+│       └── exporter.go
 ├── demo/
-│   ├── k8s_manifests/
+│   ├── quickstart.sh
+│   ├── ebpf_probe.c
 │   ├── ebpf_probe.o
+│   ├── k8s_manifests/
+│   │   └── kind-config.yaml
+│   ├── prometheus-grafana.yml
 │   └── vault_config/
+│       ├── vault-helm-values.yaml
+│       └── init-vault.sh
 ├── dashboard/
 │   └── react_app/
 └── videos/
